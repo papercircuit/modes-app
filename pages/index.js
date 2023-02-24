@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import MainView from './MainView'
-import styles from '../styles/Home.module.css'
+// import styles from '../styles/Home.module.css'
 
 const Home = () => (
   <>
@@ -10,7 +10,6 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <MainView />
-    <style jsx>{styles}</style>
   </>
 )
 
